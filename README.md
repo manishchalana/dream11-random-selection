@@ -21,6 +21,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. S Gopal (c)
 10. J Unadkat
 11. J Behrendorff
+
 ------------ Team 2 ------------
 1. Q Kock
 2. R Sharma
@@ -33,6 +34,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. J Bumrah
 10. J Archer
 11. J Unadkat (vc)
+
 ------------ Team 3 ------------
 1. Q Kock (vc)
 2. R Sharma
@@ -45,6 +47,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. J Bumrah
 10. J Archer
 11. S Gopal (c)
+
 ------------ Team 4 ------------
 1. Q Kock
 2. S Smith
@@ -57,6 +60,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. A Joseph
 10. J Unadkat
 11. J Behrendorff (c)
+
 ------------ Team 5 ------------
 1. Q Kock
 2. S Smith
@@ -69,6 +73,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. J Unadkat
 10. A Joseph
 11. R Chahar (vc)
+
 ------------ Team 6 ------------
 1. Q Kock
 2. K Pollard
@@ -81,6 +86,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. J Archer
 10. A Joseph
 11. D Kulkarni
+
 ------------ Team 7 ------------
 1. Q Kock (c)
 2. K Pollard
@@ -93,6 +99,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. J Archer
 10. R Chahar
 11. S Gopal
+
 ------------ Team 8 ------------
 1. Q Kock
 2. S Smith
@@ -105,6 +112,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. J Archer
 10. S Gopal
 11. R Chahar
+
 ------------ Team 9 ------------
 1. Q Kock
 2. J Butler
@@ -117,6 +125,7 @@ Sample Output for a hypothetical RR vs MI match:
 9. A Joseph
 10. R Chahar
 11. D Kulkarni
+
 ------------ Team 10 ------------
 1. Q Kock
 2. J Butler
