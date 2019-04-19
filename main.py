@@ -11,6 +11,7 @@ ar = 'ar'
 # ('player name')
 t1 = 'mi'
 t2 = 'rr'
+numOfTeams = 5
 
 p1 = {'name': 'Q Kock', 'type':wk, 'points': 9, 'team': t1, 'star':1}
 p2 = {'name': 'R Sharma', 'type':bat, 'points': 10, 'team': t1, 'star':1}
@@ -45,7 +46,7 @@ from dreamteam import Dream11
 
 if __name__ == '__main__':        
     myTeam = Dream11(players, teams)  
-    teams = myTeam.generateTeams(2, captain=True) 
+    teams = myTeam.generateTeams(numOfTeams, captain=True) 
 
     
 
