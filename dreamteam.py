@@ -34,18 +34,14 @@ class Dream11(Team):
         
     @staticmethod
     def sample(players, req):
-
-        # Calculating the number of star players in each segment
+        
         numStars = np.sum([p['star'] for p in players])
 
         availableStars = [p['name'] for p in players if p['star']==1]
-#        print(availableStars)
-        availableNonStars = [p['name'] for p in players if not(p['star']==1)]
-#        print(availableNonStars)
-        
-        
-        if numStars >= req:
 
+        availableNonStars = [p['name'] for p in players if not(p['star']==1)]
+    
+        if numStars >= req:
             return ([] if len(availableStars)==0 else rnd.sample(availableStars, req))
         else:
             return availableStars + rnd.sample(availableNonStars, req - numStars)
