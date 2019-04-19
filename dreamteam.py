@@ -54,7 +54,7 @@ class Dream11(Team):
         while selected < numTeams:
             while True:
                 [numWks, numBats, numArs, numBowls] = rnd.sample(self.combinations, 1)[0]
-                if (numWks <= self.playerTypeCount['wk']) and (numBats <=self.playerTypeCount['bat']) and (numArs <=self.playerTypeCount['ar']) and (numArs<=self.playerTypeCount['bowl']):
+                if (numWks <= self.playerTypeCount['wk']) and (numBats <=self.playerTypeCount['bat']) and (numArs <=self.playerTypeCount['ar']) and (numBowls<=self.playerTypeCount['bowl']):
                     break
                 
                 
