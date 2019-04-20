@@ -59,16 +59,16 @@ class Dream11(Team):
                 
                 
             wks = Dream11.sample([p for p in self.players if p['type']=='wk'], numWks)
-            assert len(wks) == numWks, "Fail! Selected: " + str(wks)
+            
             
             bats = Dream11.sample([p for p in self.players if p['type']=='bat'], numBats)
-            assert len(bats) == numBats, "Fail! Selected: " + str(numBats)
+            
             
             ars = Dream11.sample([p for p in self.players if p['type']=='ar'], numArs)
-            assert len(ars) == numArs, "Fail! Selected: " + str(numArs)
+            
             
             bowls = Dream11.sample([p for p in self.players if p['type']=='bowl'], numBowls)
-            assert len(bowls) == numBowls, "Fail! Selected: " + str(numBowls)
+            
             
             selectedTeam = wks + bats + ars + bowls
  
