@@ -13,7 +13,7 @@ t1 = 'srh'
 t2 = 'kkr'
 numOfTeams = 8
 
-# ('player name', 'player role', 'player points in dream11 app', 'player team', 'star player i.e. identifier to denote whether must be included in the team or not (if star =1, player will be included in the team'))
+# ('player name', 'player role', 'player points in dream11 app', 'player team', 'star player i.e. identifier to denote whether must be included in the team or not (if star =1, player will be included in the team)')
 
 p1 = {'name': 'J Bairstow', 'type':wk, 'points':10 , 'team': t1, 'star':1}#
 p2 = {'name': 'D Warner', 'type':bat, 'points': 11, 'team': t1, 'star':1}#
